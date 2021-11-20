@@ -75,5 +75,4 @@ async function deleteUser(modal, id) {
             modal.find('.modal-body').prepend(alert);
         }
     })
-
 }

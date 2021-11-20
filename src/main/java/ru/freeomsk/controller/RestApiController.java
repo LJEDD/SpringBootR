@@ -16,7 +16,7 @@ import java.security.Principal;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@RestController()
+@RestController
 @RequestMapping("/api")
 public class RestApiController {
 
