@@ -13,8 +13,8 @@ async function editUser(modal, id) {
         let bodyForm = `
             <form class="form-group text-center" id="editUser">
                <div class="form-group">
-                    <label for="user_id" class="col-form-label">ID</label>
-                    <input type="text" class="form-control username" id="user_id" value="${user.user_id}" readonly>
+                    <label for="userId" class="col-form-label">ID</label>
+                    <input type="text" class="form-control username" id="userId" value="${user.userId}" readonly>
                </div>
                    
                <div class="form-group">
@@ -70,7 +70,7 @@ async function editUser(modal, id) {
             }
             return array;
         }
-        let user_id = modal.find("#user_id").val().trim();
+        let userId = modal.find("#userId").val().trim();
         let username = modal.find("#username").val().trim();
         let password = modal.find("#password").val().trim();
         let name = modal.find("#name").val().trim();
@@ -78,7 +78,7 @@ async function editUser(modal, id) {
         let age = modal.find("#age").val().trim();
         let email = modal.find("#email").val().trim();
         let data = {
-            user_id: user_id,
+            userId: userId,
             username: username,
             password: password,
             name: name,

@@ -13,8 +13,8 @@ async function deleteUser(modal, id) {
         let bodyForm = `
             <form class="form-group text-center" id="deleteUser">
                <div class="form-group">
-                    <label for="user_id" class="col-form-label">ID</label>
-                    <input type="text" class="form-control username" id="user_id" value="${user.user_id}" readonly>
+                    <label for="userId" class="col-form-label">ID</label>
+                    <input type="text" class="form-control username" id="userId" value="${user.userId}" readonly>
                </div>
                    
                <div class="form-group">
