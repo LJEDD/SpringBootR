@@ -1,4 +1,4 @@
-# JM preproject 3.1.3 Spring Boot (REST + JS)
+# Spring Boot (REST + JS)
 
 ## Задание:
 1. Написать Rest-контроллеры для вашего приложения.
