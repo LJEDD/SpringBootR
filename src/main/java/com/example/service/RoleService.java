@@ -1,6 +1,6 @@
-package ru.freeomsk.service;
+package com.example.service;
 
-import ru.freeomsk.model.Role;
+import com.example.model.Role;
 import java.util.List;
 import java.util.Set;
 

@@ -1,4 +1,4 @@
-package ru.freeomsk;
+package com.example;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import java.io.IOException;

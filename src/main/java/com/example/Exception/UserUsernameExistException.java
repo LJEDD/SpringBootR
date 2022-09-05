@@ -1,4 +1,4 @@
-package ru.freeomsk.Exception;
+package com.example.Exception;
 
 import org.springframework.dao.DataIntegrityViolationException;
 

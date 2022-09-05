@@ -1,7 +1,7 @@
-package ru.freeomsk.service;
+package com.example.service;
 
-import ru.freeomsk.DAO.RoleDAO;
-import ru.freeomsk.model.Role;
+import com.example.model.Role;
+import com.example.DAOrepository.RoleDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import javax.annotation.PostConstruct;

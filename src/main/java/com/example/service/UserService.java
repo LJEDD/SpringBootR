@@ -1,6 +1,6 @@
-package ru.freeomsk.service;
+package com.example.service;
 
-import ru.freeomsk.model.User;
+import com.example.model.User;
 import java.util.List;
 
 public interface UserService {

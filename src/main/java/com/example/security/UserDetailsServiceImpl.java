@@ -1,6 +1,6 @@
-package ru.freeomsk.security;
+package com.example.security;
 
-import ru.freeomsk.DAO.UserDAO;
+import com.example.DAOrepository.UserDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,9 +1,9 @@
-package ru.freeomsk.service;
+package com.example.service;
 
-import ru.freeomsk.DAO.RoleDAO;
-import ru.freeomsk.DAO.UserDAO;
-import ru.freeomsk.model.Role;
-import ru.freeomsk.model.User;
+import com.example.DAOrepository.RoleDAO;
+import com.example.DAOrepository.UserDAO;
+import com.example.model.Role;
+import com.example.model.User;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

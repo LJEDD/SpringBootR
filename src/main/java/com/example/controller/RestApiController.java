@@ -1,10 +1,10 @@
-package ru.freeomsk.controller;
+package com.example.controller;
 
-import ru.freeomsk.Exception.ExceptionInfo;
-import ru.freeomsk.Exception.UserUsernameExistException;
-import ru.freeomsk.model.User;
-import ru.freeomsk.service.RoleService;
-import ru.freeomsk.service.UserService;
+import com.example.Exception.ExceptionInfo;
+import com.example.Exception.UserUsernameExistException;
+import com.example.model.User;
+import com.example.service.RoleService;
+import com.example.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.support.DefaultMessageSourceResolvable;
 import org.springframework.http.HttpStatus;
